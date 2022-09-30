@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100vw;
+}
+
+.inner-container{
+    
+}
+
+.email, .password, .button{
+    padding: 1rem;
+    height: ;
+}
+
+input, button{
+    height: 2rem;
+}
+
+button{
+    background: rgb(180, 90, 90);
+    border-radius: 0.7em;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+.span{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
