@@ -24,7 +24,7 @@ class App extends Component{
     }
 
     user = () => {
-        this.state.input.slice(0, indexOf('@'))
+        this.state.input.slice(0, '@');
     }
 
     /*updateState = (e) =>{
