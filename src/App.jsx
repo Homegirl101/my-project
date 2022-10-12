@@ -23,6 +23,10 @@ class App extends Component{
         console.log(this.state.input)
     }
 
+    user = () => {
+        this.state.input.slice(0, indexof('@'));
+    }
+
     /*updateState = (e) =>{
         this.setState({input: e.target.value});
         console.log(this.state.input)
@@ -47,7 +51,7 @@ class App extends Component{
             return(
                 <>
                     <Navigation onRouteChange ={this.onRouteChange} isSignedIn = {true}/>
-                    <Rank />
+                    <Rank user={user}/>
                     <ImageLinkForm onChange={this.onChange} updateState={this.updateState} />
                 </>
             )
@@ -57,13 +61,6 @@ class App extends Component{
                 //{this.state.route === 'register'} ? <Register onRouteChange={this.onRouteChange}/>
                 
 
-                {/*
-                <Navigation />
-                <Logo />
-                <Rank />
-                <ImageLinkForm onChange={this.onChange} updateState={this.updateState} />
-
-        <FaceRecognition />*/}
         
     }
 }
