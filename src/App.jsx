@@ -57,7 +57,13 @@ class App extends Component{
                 //{this.state.route === 'register'} ? <Register onRouteChange={this.onRouteChange}/>
                 
 
-                
+                {/*
+                <Navigation />
+                <Logo />
+                <Rank />
+                <ImageLinkForm onChange={this.onChange} updateState={this.updateState} />
+
+        <FaceRecognition />*/}
         
     }
 }
