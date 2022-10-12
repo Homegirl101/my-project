@@ -24,7 +24,7 @@ class App extends Component{
     }
 
     user = () => {
-        this.state.input.slice(0, indexof('@'));
+        this.state.input.slice(0, indexOf('@'))
     }
 
     /*updateState = (e) =>{
@@ -51,7 +51,7 @@ class App extends Component{
             return(
                 <>
                     <Navigation onRouteChange ={this.onRouteChange} isSignedIn = {true}/>
-                    <Rank user={user}/>
+                    <Rank />
                     <ImageLinkForm onChange={this.onChange} updateState={this.updateState} />
                 </>
             )
