@@ -1,0 +1,27 @@
+{
+  "name": "script",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "script.js",
+  "engines": {
+    "node": "16.16.0",
+    "npm": "8.11.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "start:dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express.js": "^1.0.0",
+    "knex": "^2.3.0",
+    "pg": "^8.8.0"
+  }
+}
